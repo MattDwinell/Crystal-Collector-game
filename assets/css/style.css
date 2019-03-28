@@ -1,0 +1,90 @@
+.grid-container{
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ;
+    grid-gap: 10px;
+
+}
+.intro{
+    grid-column:3/7;
+    text-align:center;
+    background-color: yellow;
+    font-size: 35px;
+    font-weight: bold;
+    border: 5px solid black;
+    padding: 5px;
+}
+.instructions{
+    padding:10px;
+    grid-column:3/5;
+    grid-row: 2/5;
+    background-color: beige;
+    font-size: 20px;
+}
+.startdiv{
+    grid-column: 5/6;
+    grid-row:2/3;
+}
+#gamestart{
+    border:2px solid black;
+    padding:4px;
+    color:black;
+    background-color:lightblue;
+    
+}
+.win-loss-div, #wincount, #losscount{
+    padding:5px;
+    background-color:lightgreen;
+    text-align:right;
+    grid-column:6/7;
+    grid-row:2/3;
+}
+.rand{
+    padding:5px;
+    background-color:lightpink;
+    grid-column: 5/6;
+
+}
+.use{
+    background-color: lightyellow;
+grid-column: 6/7;
+padding:5px;
+}
+#random-number{
+text-align:center;
+font-size: 30px;
+}
+#user-score{
+    text-align:center;
+    font-size:30px;
+
+}
+#gem1, #bluegem {
+    height:auto;
+    width:100%;
+    grid-column: 5/6;
+    grid-row:3/4;
+
+}
+#gem2, #greengem{
+    height:auto;
+    width:100%;
+    grid-column:6/7;
+    grid-row:3/4;
+
+}
+#gem3, #purplegem{
+    height:auto;
+    width:100%;
+    grid-column:5/6;
+    grid-row:4/5;
+}
+#gem4, #redgem{
+    height:auto;
+    width:100%;
+    grid-column:6/7;
+    grid-row: 4/5;
+    
+}

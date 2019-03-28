@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" type = "text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type = "text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class ="grid-container">
+<div class = "grid-item"></div>
+<div class = "grid-item intro"><div>Collector O' Crystals! </div></div>
+<div class = "grid-item instructions"><div> You will be given a random number at the start of the game. <br> <br> There are four crystals below. Each time you click a crystal, it will add an amount to your total score. <br><br> You can win the game by matching your total score to the random number shown to you--but beware! If you shoot too high, you lose the game. <br><br> The value of each crystal will be hidden until you click on it it and see how it affects your total score. <br><br> Every time the game starts, the crystals will change value so don't bother trying to memorize their values for future games! <br> <br>
+Good luck.</div></div>
+<div class = "grid-item startdiv"> <btn id="gamestart">Click me to Start!</btn></div>
+<div class = "grid-item win-loss-div">
+    <div id="wincount"> number of wins: <span id="winnum"> 0</span></div>
+    <div id="losscount">number of losses: <span id="lossnum"></span></div>
+</div>
+<div class = "grid-item rand"> Number to reach: <div id="random-number">00 </div></div>
+<div class="grid-item use"> Your number: <div id="user-score"> 0 </div></div>
+<div class = "grid-item" id = "gem1"> <img id="bluegem" src ="assets/images/bluegem.jpg" ></div>
+<div class = "grid-item" id = "gem2"> <img id="greengem" src ="assets/images/greengem.png" ></div>
+<div class ="grid-item" id = "gem3"> <img id="purplegem" src ="assets/images/purplegem.png" ></div>
+<div class ="grid-item" id = "gem4"> <img id="redgem" src ="assets/images/redgem.png" ></div>
+
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
