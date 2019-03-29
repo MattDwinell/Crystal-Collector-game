@@ -17,12 +17,12 @@ var gem4 = 0;
 
 function game(){
     userScore = 0;
-    gem1 = Math.floor(Math.random()*11)+1;
-    gem2 = Math.floor(Math.random()*11)+1;
-    gem3 = Math.floor(Math.random()*11)+1;
-    gem4 = Math.floor(Math.random()*11)+1;
+    gem1 = Math.floor(Math.random()*12)+1;
+    gem2 = Math.floor(Math.random()*12)+1;
+    gem3 = Math.floor(Math.random()*12)+1;
+    gem4 = Math.floor(Math.random()*12)+1;
     repeat=true;
-randNum = (Math.floor(Math.random()*100)+20);
+randNum = (Math.floor(Math.random()*101)+19);
 document.getElementById("random-number").textContent = randNum;
 console.log(gem1);
 document.getElementById("bluegem").onclick = function(){
