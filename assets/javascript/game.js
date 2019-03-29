@@ -74,6 +74,7 @@ document.getElementById("winnum").textContent = winCount;
     userScore = 0;
     randNum = 0;
     gameOver= true;
+    document.getElementById("gamestart").textContent=("Try again");
 
 
 }

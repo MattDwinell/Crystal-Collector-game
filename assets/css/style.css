@@ -24,10 +24,12 @@
     font-size: 20px;
 }
 .startdiv{
+    margin: auto auto;
     grid-column: 5/6;
     grid-row:2/3;
 }
 #gamestart{
+    margin: 0 auto;
     border:2px solid black;
     padding:4px;
     color:black;
