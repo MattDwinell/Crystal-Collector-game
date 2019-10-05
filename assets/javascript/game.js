@@ -1,3 +1,13 @@
+document.getElementById("invert").addEventListener("click", ()=>{
+    let invert = document.getElementById("invert");
+    console.log(invert);
+    console.log(invert.checked);
+    if(invert.checked){
+        document.documentElement.classList.add("invert");
+    } else {
+        document.documentElement.classList.remove("invert");
+    }
+})
 document.getElementById("gamestart").addEventListener("click", function(){
     if(repeat == false){
         gameOver = false;
